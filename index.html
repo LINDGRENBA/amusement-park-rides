@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/jquery-3.5.0.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Amusement Park</title>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Welcome to Our Amusement Park</h1>
+      <p>Enter your height below to see which rides you can go on.</p>
+    </header>
+    <div class="form">
+      <form action="" id="height-info">
+        <div class="form-group">
+          <label for="feet">Feet</label>
+          <input type="text" id="feet" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="inches">Inches</label>
+          <input type="text" id="inches" class="form-control">
+        </div>
+        <button class="btn" type="submit">Submit Height</button>
+      </form>
+    </div>
+
+    <div class="ride-list">
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Rides for the vertically challenged:</h2>
+          <ul id="short">
+            <li>Ride 1</li>
+            <li>Ride 2</li>
+            <li>Ride 3</li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h2>Rides for the boringly average:</h2>
+          <ul id="med">
+            <li>Ride 1</li>
+            <li>Ride 2</li>
+            <li>Ride 3</li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h2>Rides for the vertically endowed:</h2>
+          <ul id="tall">
+            <li>Ride 1</li>
+            <li>Ride 2</li>
+            <li>Ride 3</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div> 
+</body>
+</html>
